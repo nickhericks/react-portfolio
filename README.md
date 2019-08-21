@@ -1,4 +1,4 @@
-#nickhericks.com built with React
+# nickhericks.com
 
 
 
