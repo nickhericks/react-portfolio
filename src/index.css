@@ -44,19 +44,16 @@ code {
 
 .timeline {
 	height: 1000px;
-	border: 5px solid red;
-	margin: 10px;
-	
+	width: 500px;
+	/* border: 5px solid red; */
+	margin: 0 auto;
+
 }
 
 .left-path {
-	/* border: 30px solid black; */
-	/* border-color: black;
-	border-style: solid; */
 	height: 300px;
-	width: 400px;
-	/* margin: 20px 600px 0 400px; */
-	/* border-radius: 100px; */
+	margin: 0 150px 0 0;
+
 	border-top: 30px solid black;
 	border-left: 30px solid black;
 	border-bottom: 30px solid black;
@@ -65,14 +62,9 @@ code {
 }
 
 .right-path {
-	/* border: 30px solid black; */
-	/* border-color: black;
-	border-style: solid; */
-	height: 300px;
-	width: 400px;
-	margin-top: -30px;
-	/* margin: -30px 400px 0 600px; */
-	/* border-radius: 100px; */
+	height: 200px;
+	margin: -30px 0 0 150px;
+
 	border-top: 30px solid black;
 	border-right: 30px solid black;
 	border-bottom: 30px solid black;
@@ -83,7 +75,15 @@ code {
 
 
 
+@media screen and (max-width: 600px) {
 
+	.timeline {
+		padding: 0;
+		margin: 0;
+		width: 98vw;
+	}
+
+}
 
 
 
