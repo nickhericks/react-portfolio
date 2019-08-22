@@ -11,3 +11,96 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+
+
+
+/* ANIMATED HAND WAVE EMOJI */
+.wave {
+  animation-name: wave-animation;  /* Name of @keyframes element below */
+  animation-duration: .75s;  /* Wave speed */
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-play-state: paused;
+  transform-origin: 70% 70%;  /* Pivot from bottom-left palm */
+  display: inline-block;
+  font-size: 6rem;
+}
+
+.wave:hover {
+  animation-play-state: running; /* Play animation on mouse hover */
+}
+
+@keyframes wave-animation {
+  0% { transform: rotate( 0deg ) }
+  25% { transform: rotate( -10deg ) }
+  75% { transform: rotate( 12deg ) }
+  100% { transform: rotate( 0deg ) }
+}
+
+
+/* TIMELINE */
+
+.timeline {
+	height: 1000px;
+	border: 5px solid red;
+	margin: 10px;
+	
+}
+
+.left-path {
+	/* border: 30px solid black; */
+	/* border-color: black;
+	border-style: solid; */
+	height: 300px;
+	width: 400px;
+	/* margin: 20px 600px 0 400px; */
+	/* border-radius: 100px; */
+	border-top: 30px solid black;
+	border-left: 30px solid black;
+	border-bottom: 30px solid black;
+	border-top-left-radius: 100px;
+	border-bottom-left-radius: 100px;
+}
+
+.right-path {
+	/* border: 30px solid black; */
+	/* border-color: black;
+	border-style: solid; */
+	height: 300px;
+	width: 400px;
+	margin-top: -30px;
+	/* margin: -30px 400px 0 600px; */
+	/* border-radius: 100px; */
+	border-top: 30px solid black;
+	border-right: 30px solid black;
+	border-bottom: 30px solid black;
+	border-top-right-radius: 100px;
+	border-bottom-right-radius: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

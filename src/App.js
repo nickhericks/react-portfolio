@@ -5,10 +5,14 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
+
         <div>
-          <span className="wave">👋</span>
+          <span className="wave" role='img' aria-label='hand wave emoji'>
+						👋
+					</span>
         </div>
+
         <p>
 					<h1 className="name">
 						Hello, my name is <br class="mobile-break"></br><span className="handwriting">Nick Hericks</span>
@@ -19,7 +23,37 @@ function App() {
 
 
 
-      </header>
+      </header> */}
+
+			
+			<section className='timeline'>
+				<div className='left-path'>
+
+				</div>
+				<div className='right-path'>
+
+				</div>
+
+
+
+
+			</section>
+
+
+			<section className='highlights'>
+
+			</section>
+
+			<section className='projects'>
+
+			</section>
+
+
+
+
+
+
+
     </div>
   );
 }
