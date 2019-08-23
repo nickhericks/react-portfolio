@@ -11,22 +11,28 @@ class App extends Component {
 		return (
 			<div className="App">
 				<header className="App-header">
-					<div>
-						<span className="wave" role="img" aria-label="hand wave emoji">
-							👋
-						</span>
+
+
+
+
+					<div className="side dark">
+						<div className="side-item profile-photo-div">
+							<img className="profile-pic" src="images/nick.jpg" alt="nick hericks" />
+						</div>
+
+						<div className="side-item ">
+							<div>
+								<span className="wave">👋</span>
+							</div>
+							<h1 className="name">
+								Hello, my name is <br className="mobile-break" /><span className="handwriting">Nick Hericks</span>
+							</h1>
+							<h2 className="role">I'm a full stack developer with a passion for building tools and communities on the web.</h2>
+						</div>
+		
 					</div>
 
-					<div>
-						<h1 className="name">
-							Hello, my name is <br className="mobile-break" />
-							<span className="handwriting">Nick Hericks</span>
-						</h1>
-						<h2 className="role">
-							I'm a full stack developer with a passion for building tools and
-							communities on the web.
-						</h2>
-					</div>
+					<div className="arrow"></div>
 				</header>
 
 				{/* <section className='timeline'>
@@ -47,7 +53,7 @@ class App extends Component {
 							>
 								<img
 									className="card"
-									src="https://res.cloudinary.com/dtqevfsxh/image/upload/c_scale,w_300/v1543327352/portfolio/pledge_screenshot_1200.png"
+									src="https://res.cloudinary.com/dtqevfsxh/image/upload/v1543327352/portfolio/pledge_screenshot_1200.png"
 									alt="pledge health project"
 								/>
 							</a>
@@ -75,7 +81,7 @@ class App extends Component {
 							>
 								<img
 									className="card"
-									src="https://res.cloudinary.com/dtqevfsxh/image/upload/c_scale,w_300/v1540559117/portfolio/maputo-a-pe_screenshot_1200.png"
+									src="https://res.cloudinary.com/dtqevfsxh/image/upload/v1540559117/portfolio/maputo-a-pe_screenshot_1200.png"
 									alt="pledge health project"
 								/>
 							</a>
